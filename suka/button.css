@@ -1,0 +1,196 @@
+/* CSS3 ELEMENTS PACKAGE */
+/* Version 1.0 */
+/* by kailoon http://themetation.com */
+
+/* BUTTONS ################################*/
+.mybutton { 
+	outline: none;
+	text-decoration: none;
+	display: inline-block;
+	padding: 7px 10px 8px;
+	font: 900 12px/1 Arial, sans-serif; /* font type and attributes */
+	cursor: pointer;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	border-radius: 6px;
+	-o-border-radius: 6px;
+	position: relative;
+	color: #fff; /* font color */
+	
+	-webkit-transition: -webkit-box-shadow 0.1s ease; /* animation - safari and chrome */
+	-o-transition-property: -o-box-shadow;
+  -o-transition-duration: 4s;
+  -o-transition-delay: 1s;
+	
+	/* The gradient effects and shadow ################################*/
+	box-shadow: 0 1px 3px rgba(0,0,0,0.4), inset 0 -7px 8px rgba(0,0,0,0.2), inset 0 10px 8px rgba(255,255,255,0.2), inset 1px 1px 0px rgba(255,255,255,0.2);
+	-moz-box-shadow: 0 1px 3px rgba(0,0,0,0.4), inset 0 -7px 8px rgba(0,0,0,0.2), inset 0 10px 8px rgba(255,255,255,0.2), inset 1px 1px 0px rgba(255,255,255,0.2); 
+	-webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.4), inset 0 -7px 8px rgba(0,0,0,0.2), inset 0 10px 8px rgba(255,255,255,0.2), inset 1px 1px 0px rgba(255,255,255,0.2);
+	-o-box-shadow: 0 1px 3px rgba(0,0,0,0.4), inset 0 -7px 8px rgba(0,0,0,0.2), inset 0 10px 8px rgba(255,255,255,0.2), inset 1px 1px 0px rgba(255,255,255,0.2);
+	
+	text-shadow: 0 1px 1px rgba(0,0,0,0.5);
+	border: 1px solid rgba(0,0,0,0.2);
+	border-bottom: 1px solid rgba(0,0,0,0.4);
+
+}
+
+/* BUTTONS HOVER AND ACTIVE STAGE ################################*/
+.mybutton:hover { 
+	-moz-box-shadow: 0 0px 4px rgba(0,0,0,0.4), inset 0 1px 8px rgba(0,0,0,0.2), inset 0 -15px 8px rgba(255,255,255,0.2), inset 1px 1px 0px rgba(255,255,255,0.2);
+	-webkit-box-shadow: 0 0px 4px rgba(0,0,0,0.4), inset 0 1px 8px rgba(0,0,0,0.1), inset 0 -15px 8px rgba(255,255,255,0.1), inset 1px 1px 0px rgba(255,255,255,0.2);
+	-o-box-shadow: 0 0px 4px rgba(0,0,0,0.4), inset 0 1px 8px rgba(0,0,0,0.1), inset 0 -15px 8px rgba(255,255,255,0.1), inset 1px 1px 0px rgba(255,255,255,0.2);
+}
+
+.mybutton:active {
+	text-shadow: 0 -1px 1px rgba(0,0,0,0.5);
+	-moz-box-shadow: 0 0px 4px rgba(0,0,0,0.4), inset 0 1px 8px rgba(0,0,0,0.2), inset 0 -15px 8px rgba(255,255,255,0.2), inset 1px -1px 0px rgba(255,255,255,0.2);
+	-webkit-box-shadow: 0 0px 4px rgba(0,0,0,0.4), inset 0 1px 8px rgba(0,0,0,0.1), inset 0 -15px 8px rgba(255,255,255,0.1), inset 1px -1px 0px rgba(255,255,255,0.2);
+	-o-box-shadow: 0 0px 4px rgba(0,0,0,0.4), inset 0 1px 8px rgba(0,0,0,0.1), inset 0 -15px 8px rgba(255,255,255,0.1), inset 1px -1px 0px rgba(255,255,255,0.2);
+}
+
+.outset .mybutton:hover {
+	-moz-box-shadow: 0 0px 0px rgba(0,0,0,0.4), inset 0 1px 8px rgba(0,0,0,0.2), inset 0 -15px 8px rgba(255,255,255,0.2), inset 1px 1px 0px rgba(255,255,255,0.2);
+	-webkit-box-shadow: 0 0px 0px rgba(0,0,0,0.4), inset 0 1px 8px rgba(0,0,0,0.1), inset 0 -15px 8px rgba(255,255,255,0.1), inset 1px 1px 0px rgba(255,255,255,0.2);
+	-o-box-shadow: 0 0px 0px rgba(0,0,0,0.4), inset 0 1px 8px rgba(0,0,0,0.1), inset 0 -15px 8px rgba(255,255,255,0.1), inset 1px 1px 0px rgba(255,255,255,0.2);
+}
+
+/* LITE BUTTONS */
+.lite.mybutton { 
+	text-shadow: 0 1px 1px rgba(255,255,255,0.5); 
+}
+
+.lite.mybutton:active {
+	text-shadow: 0 -1px 1px rgba(255,255,255,0.5); 
+}
+
+/* OUTSET ################################*/
+.outset { /* Button with outset - for example <a href="javascript;" title="" class="outset blue"><em class="mybutton">My CSS3 Button</em></a> */
+	padding: 4px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	-o-border-radius: 10px;
+	display: inline-block;
+	text-decoration: none;
+}
+
+.outset .mybutton {
+	/* The gradient effects */
+	-moz-box-shadow: inset 0 -7px 8px rgba(0,0,0,0.2), inset 0 10px 8px rgba(255,255,255,0.2), inset 1px 1px 0px rgba(255,255,255,0.2); 
+	-webkit-box-shadow: inset 0 -7px 8px rgba(0,0,0,0.2), inset 0 10px 8px rgba(255,255,255,0.2), inset 1px 1px 0px rgba(255,255,255,0.2);
+	-o-box-shadow: inset 0 -7px 8px rgba(0,0,0,0.2), inset 0 10px 8px rgba(255,255,255,0.2), inset 1px 1px 0px rgba(255,255,255,0.2);
+}
+
+/* ARROW ################################*/
+.mybutton.arrow {
+	padding-right: 20px;
+}
+
+.b_button.arrow {
+	padding-right: 30px;
+}
+
+.arrow:after { /* arrow for normal button */
+	
+	content: "\00a0";
+	display: block;
+	position: absolute;
+	bottom: 9px;
+	right: 3px;
+	width: 0;
+	height: 0;
+	border: 5px solid transparent;
+	border-left-color: rgba(0,0,0,0.7);
+}
+
+.arrow:before{
+	
+	content: "\00a0";
+	display: block;
+	position: absolute;
+	bottom: 8px;
+	right: 2px;
+	width: 0;
+	height: 0;
+	border: 5px solid transparent;
+	border-left-color: rgba(255,255,255,0.1);
+}
+
+.b_button.arrow:after {  /* arrow for big button */
+	bottom: 11px;
+	right: 0px;
+	border-width: 10px;
+
+}
+
+.b_button.arrow:before {
+	bottom: 10px;
+	right: -1px;
+	border-width: 10px;
+}
+
+.s_button.arrow:after {  /* arrow for small button */
+	bottom: 6px;
+	right: 3px;
+	border-width: 4px;
+}
+
+.s_button.arrow:before{
+	bottom: 5px;
+	right: 2px;
+	border-width: 4px;
+}
+
+.black.arrow:after {
+	border-left-color: rgba(255,255,255,1);
+}
+
+.black.arrow:before {
+	border-left-color: rgba(255,255,255,0.3);
+}
+
+/* BUTTON SIZES ################################ */
+.s_button { 
+	font: 900 10px/10px Arial, sans-serif; 
+	padding: 4px 7px 6px;
+}
+
+.b_button { 
+	font: 900 14px/16px Arial, sans-serif;
+	padding: 13px 20px; /* You can adjust the button size using padding */
+	-moz-box-shadow: 0 1px 3px rgba(0,0,0,0.4), inset 0 -7px 8px rgba(0,0,0,0.1), inset 0 16px 8px rgba(255,255,255,0.2), inset 1px 1px 0px rgba(255,255,255,0.3);
+	-webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.4), inset 0 -7px 8px rgba(0,0,0,0.1), inset 0 16px 8px rgba(255,255,255,0.2), inset 1px 1px 0px rgba(255,255,255,0.3);
+	-o-box-shadow: 0 1px 3px rgba(0,0,0,0.4), inset 0 -7px 8px rgba(0,0,0,0.1), inset 0 16px 8px rgba(255,255,255,0.2), inset 1px 1px 0px rgba(255,255,255,0.3);
+}
+
+/* BUTTON COLORS - you can change the button based color here ################################ */
+.mybutton.blue, .outset.blue .mybutton { background-color: #1a5aa2; }
+.mybutton.green, .outset.green .mybutton { background-color: #719213; color:#fff;}
+.mybutton.red, .outset.red .mybutton { background-color: #991b1b; }
+.mybutton.orange, .outset.orange .mybutton { background-color: #e33100; color:#fff;}
+.mybutton.black, .outset.black .mybutton { background-color: #111; color:#fff;}
+.mybutton.metalic, .outset.metalic .mybutton { background-color: #696969; }
+.mybutton.yellow, .outset.yellow .mybutton { background-color: #ecd225; }
+.mybutton.purple, .outset.purple .mybutton { background-color: #842dbb; }
+.mybutton.ocean, .outset.ocean .mybutton { background-color: #2d9fbb; color:#fff;}
+.mybutton.coffee, .outset.coffee .mybutton { background-color: #91846d; color:#fff;}
+
+.mybutton.blue-lite, .outset.blue-lite .mybutton { background-color: #bedae9; color: #365463; }
+.mybutton.green-lite, .outset.green-lite .mybutton { background-color: #c5d488; color: #516112; }
+.mybutton.red-lite, .outset.red-lite .mybutton { background-color: #e3aaaa; color: #681b1b; }
+.mybutton.orange-lite, .outset.orange-lite .mybutton { background-color: #e39045; color: #4f2409; }
+.mybutton.black-lite, .outset.black-lite .mybutton { background-color: #ccc; color: #434343; }
+.mybutton.yellow-lite, .outset.yellow-lite .mybutton { background-color: #e7e19a; color: #5a5629; }
+.mybutton.purple-lite, .outset.purple-lite .mybutton { background-color: #e6a5e1; color: #5d1657; }
+.mybutton.ocean-lite, .outset.ocean-lite .mybutton { background-color: #a9d7dd; color: #115159; }
+.mybutton.coffee-lite, .outset.coffee-lite .mybutton { background-color: #aaa999; color: #35342c; }
+
+.outset.blue, .outset.blue-lite { background-color: #dcebf3; }
+.outset.green, .outset.green-lite { background-color: #f1f3dc; }
+.outset.red, .outset.red-lite { background-color: #f3dcdc; }
+.outset.orange, .outset.orange-lite { background-color: #f3eadc; }
+.outset.black, .outset.metalic, .outset.black-lite { background-color: #f1f1f1; }
+.outset.yellow, .outset.yellow-lite { background-color: #f3eedc; }
+.outset.purple, .outset.purple-lite { background-color: #f3dcf3; }
+.outset.ocean, .outset.ocean-lite { background-color: #dcf2f3; }
+.outset.coffee, .outset.coffee-lite { background-color: #f3e8dc; }

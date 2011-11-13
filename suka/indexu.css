@@ -1,0 +1,229 @@
+/*
+indexu css
+==========*/
+
+/*rss new listing widget*/
+.rss_nl {
+  margin-top:10px; 
+  margin-left:24px;
+}
+
+/*pagination*/
+#pagination {
+  margin: 0 !important;
+  padding-top: 10px !important;
+  text-align: center !important;  
+}
+
+#pagination a:link, #pagination a:visited {
+  background: none repeat scroll 0 0 #EEEEEE !important;
+  border: 1px solid #DDDDDD !important;
+  border-radius: 2px 2px 2px 2px;
+  color: #666666 !important;
+  display: inline !important;
+  padding: 3px 7px !important;
+  text-decoration: none !important;
+}
+
+#pagination a.current, #pagination .on, #pagination a:hover {
+  background: none repeat scroll 0 0 #DDDDDD !important;
+  border: 1px solid #BBBBBB !important;
+  border-radius: 2px 2px 2px 2px;
+  padding: 3px 7px !important;
+}
+
+/*user cp index* ~ indexu*/
+.usercp_main_tbl, .usercp_main_tbl td {
+  border:none;  
+  text-align:center;
+  padding:10px;
+}
+
+/*listing detail sheet ~ indexu*/
+.listing_detail_sheet td {
+  padding:10px;  
+}
+
+/*tabbed sub listing in detail page ~ indexu*/
+.usual {
+    color: #111111;
+    margin: 8px auto;
+    width: 100%;
+}
+.usual li {
+    float: left;
+    list-style: none outside none;
+    
+}
+.usual ul {
+  padding: 0;
+}
+.usual ul a {
+    background: none repeat scroll 0 0 #aaa;
+    border:1px solid ccc;
+    color: #000;
+    display: block;
+    /*font: 10px Verdana;*/
+    margin: 1px 1px 1px 0;
+    padding: 6px 10px;
+    text-decoration: none !important;
+}
+.usual ul a:hover {
+    background: none repeat scroll 0 0 #111111;
+    color: #FFFFFF;
+}
+.usual ul a.selected {
+    background: none repeat scroll 0 0 #111;
+    border-bottom: 1px solid snow;
+    color: #fff;
+    cursor: default;
+    margin-bottom: 0;
+}
+.usual .tabbed {
+    background: none repeat scroll 0 0 #fff;
+    clear: left;
+    padding: 12px 10px;
+    border-top:1px solid #aaa;  
+}
+
+/*category list ~ indexu*/
+
+#category {
+  width:100%;
+  border:none;
+}
+
+#category tr, #category td {
+  border:none;
+}
+
+.categ_item {
+  margin:10px 0;
+}
+
+.categ_item a {
+  text-decoration:underline;
+  font-weight:bold;
+}
+
+.categ_item li a {
+  text-decoration:none;
+  font-weight:normal;
+}
+
+.categ_item ul {
+  margin-top:10px;
+  margin-left:30px;
+}
+
+.categ_item li {
+  margin-bottom:3px;
+}
+
+.categ_item img {
+  margin-right:10px;
+}
+
+/*tag cloud ~ indexu*/
+
+#popular_tags {
+  text-align: justify;
+  padding: 0 10px;
+  margin: 10px 0 0 0;
+}
+
+#popular_tags li {
+  list-style: none;
+  display: inline;
+  margin-right:10px;
+}
+
+#popular_tags li a {
+  color: #000;
+}
+
+#popular_tags .smallest_tag {
+  font-size: 100%
+}
+
+#popular_tags .small_tag {
+  font-size: 125%
+}
+
+#popular_tags .medium_tag {
+  font-size: 150%
+}
+
+#popular_tags .large_tag {
+  font-size: 175%
+}
+
+#popular_tags .largest_tag {
+  font-size: 200%
+}
+
+#popular_tags li span {
+  color:#999;
+  font-size: 8px;
+  padding: 0 5px 0 0;
+}
+
+/*form ~ indexu*/
+.required {
+  font-weight:bold;
+}
+
+.form_field {
+  font-weight:normal;
+}
+
+.checkboxgroup {
+  margin:0;
+  padding:0;
+  border:0;
+}
+
+.checkboxgroup td {
+  margin:0;
+  padding:3px 0;
+  border:0;
+}
+
+.inputText {
+  width:400px;
+}
+.textarea {
+  width:400px;
+  height:100px;
+}
+
+.select {
+}
+
+.addformlistingtypeselect td {
+  margin:0;
+  padding:3px 0;
+}
+
+/*featured listing in rows ~ indexu*/
+
+.featured_listing {
+  background:#EDEFF4;
+  padding:10px;
+}
+
+.featured_tag {
+  background-color: #96C42E;
+  background-image: -moz-linear-gradient(center top , #96C42E, #2AB536);
+  border: 1px solid #25A030;
+  border-radius: 20px 20px 20px 20px;
+  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.4) inset, 0 1px 2px rgba(0, 0, 0, 0.2);
+  color: #FFFFFF;
+  font-size: 11px;
+  font-weight: bold;
+  padding: 1px 6px;
+  text-align: center;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+  position:relative;
+  top:-3px;
+}
