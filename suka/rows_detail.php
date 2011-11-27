@@ -48,8 +48,10 @@
                 <a href="upgrade.php?id=<?php print $v['res_id'] ?>" title="" class="woo-sc-button small orange"><?php print _t('Upgrade') ?></a>
                 <?php endif; ?>
 
+                <?php if (!$v['user_id']) : ?>
                 <a href="usercp/claim.php?act=claim&id=<?php print $v['res_id'] ?>" title="" class="woo-sc-button small silver"><?php print _t('Claim') ?></a>
-
+                <?php endif; ?>
+              
                 <a href="report.php?id=<?php print $v['res_id'] ?>" title="" class="woo-sc-button small red"><?php print _t('Report') ?></a>
 
               </div>
